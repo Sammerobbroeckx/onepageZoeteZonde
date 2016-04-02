@@ -1,0 +1,194 @@
+body 
+{
+    width: 100%;
+    height: 100%;
+    background-color:#D8EEFB;
+ 	background-image: url("../img/bg.png");
+ 	
+}
+
+html 
+{
+    width: 100%;
+    height: 100%;
+	overflow: hidden;
+}
+
+@media(min-width:767px) 
+{	
+    .navbar 
+	{
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: #3D81F5;
+        border: black solid 0px;
+    }
+
+    .top-nav-collapse 
+	{
+        padding: 0;
+    }
+}
+
+.intro-section 
+{
+    height: 100%;
+	width: 100%;
+    padding-top: 0px;
+    text-align: center;
+    
+   
+}
+
+.about-section 
+{
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    
+}
+
+.menu-section 
+{
+    height: 100%;
+    padding-top: 100px;
+    text-align: center; 
+}
+
+.contact-section
+{
+	height: 100%;
+    padding-top: 100px;
+    text-align: center; 
+}
+
+#aboveLeaflet
+{
+	position: absolute;
+    left: 0px;
+    z-index: 1; 
+	width: 100%;
+}
+
+input
+{
+	margin-top: 15px;
+}
+
+textarea
+{
+	margin-top: 15px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img 
+{
+    height: 100vh;
+	width: 100%;
+    margin: 0;
+}
+
+.container-fluid
+{
+	margin: 0px;
+	width: 100%;
+	
+}
+
+.myCarousel
+{
+	padding:0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.navbartext
+{
+	color: #5BC0DE;
+	font-size:18px;
+
+}
+
+.active 
+{
+	background-color: #7ED1ED;
+}
+
+.btnMenu
+{
+	text-align: left;
+	margin-top: 25px;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.btnMenu:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.menuActive
+{
+	text-decoration: underline;
+}
+
+.gerechtRij
+{
+	text-align: center;
+	margin-top: 0px;
+	font-size: 13pt;
+}
+
+.hide
+{
+	display: hidden;
+}
+
+.nav .active a
+{
+	background-color: #3D81F5 !important;	
+}
+
+#fotogallerij
+{
+	padding:0px;
+}
+
+.lblPrijs
+{
+	font-weight: bold;
+}
+
+#mapid 
+{ 
+	position: absolute;
+    left: 0px;
+    top: 300%;
+    z-index: -1;
+	height: 100vh; 
+	width: 100%;
+}
+
+@media(max-width:767px) 
+{	
+    html 
+	{
+		overflow: scroll;
+	}
+	
+	.btnMenu
+	{
+		display: inline-block;
+		height: 10px;
+		margin-left: 20px;
+	}
+	
+	.menu-section 
+	{
+		height: 100%;
+		padding-top: 10px;
+		text-align: center; 
+	}
+}
