@@ -233,7 +233,7 @@
 		
 		var marker = L.marker([51.086486, 4.366033]).addTo(mymap);
 		
-		marker.bindPopup("<b>De Zoete Zonde</b><br>antwerpsestraat 5, 2850 Boom").openPopup();
+		marker.bindPopup("<b>De Zoete Zonde</b><br>Antwerpsestraat 5<br> 2850 Boom").openPopup();
 	</script>
 </body>
 
